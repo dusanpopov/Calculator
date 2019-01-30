@@ -23,8 +23,8 @@ equalsBtn.addEventListener("click", () => {
 
     } else {
 
-        let value = eval(display.value)
-        display.value = value;
+        let result = eval(display.value)
+        display.value = result;
 
     }
 });
